@@ -1,59 +1,41 @@
 ---
 layout: archive
-title: "CV"
-permalink: /cv/
+title: "Biography"
+permalink: /bio/
 author_profile: true
 redirect_from:
   - /resume
+  - /cv
 ---
 
 {% include base_path %}
 
-Education
-======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+Originally trained as an engineer, I help industry and academia collaborate to deploy renewable energy.
 
-Work experience
-======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+I received my MEng from Durham in 2001 and then worked on gas turbine R&D with Alstom in Switzerland. A love for skiing and mountaineering led me to take up a PhD position at the Swiss Institute for Snow and Avalanche Research. In 2007 I graduated with a PhD from ETH Zürich and took a postdoc role in British Columbia, trying to work out how much snow was being blown around the Rocky Mountains. 
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+![Fieldwork on the Castle Glacier, 2007](/images/DSCN1967.JPG "Fieldwork on the Castle Glacier, 2007")
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+My renewable energy career started in 2008 when I joined a wind energy consultancy in Vancouver, BC. In late 2009 I returned to Davos to continue research on winds in complex terrain. In true postdoc style the nomadic life continued, and in 2011 I went to the US National Renewable Energy Laboratory ([NREL](http://www.nrel.gov)) near Denver, where I led research into wind and solar energy resources. 
+
+![The view from the office at the NWTC](/images/IMG_0130.JPG "The view from the office at the NWTC")
+
+Since 2017 I've been the Managing Director of the wind energy research cluster [WindForS](https://www.windfors.de), where I coordinate activities by 25 research teams at 8 organizations across southern Germany. I also lead the international collaborative R&D effort [IEA Wind Task 32 on wind lidar for wind energy deployments](https://community.ieawind.org/task32).
+
+Want to know more? [Download my CV](){: .btn}
+
+# Major interests
+----
+ - Digitalisation, for example [open science](../tags/#open-science)
+ - Collaborative science, leveraging [research networks](../tags/#open-science)
+ - [Technology transfer](../tags/#technology-transfer), and 
+ - Diversity and inclusion.
+
+
+# Publications
+----
+A list of the 100+ publications I have led or contributed to is available at [Google Scholar](https://scholar.google.de/citations?hl=en&user=OCT6OOsAAAAJ). 
+
+A list of peer-reviewed journal articles (including open-access papers) can be found at [orcid.org/0000-0001-9698-5083](https://orcid.org/0000-0001-9698-5083).
+
+
