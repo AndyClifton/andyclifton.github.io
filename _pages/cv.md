@@ -14,11 +14,11 @@ Originally trained as an engineer, I help industry and academia collaborate to d
 
 I received my MEng from Durham in 2001 and then worked on gas turbine R&D with Alstom in Switzerland. A love for skiing and mountaineering led me to take up a PhD position at the Swiss Institute for Snow and Avalanche Research. In 2007 I graduated with a PhD from ETH Zürich and took a postdoc role in British Columbia, trying to work out how much snow was being blown around the Rocky Mountains. 
 
-![Fieldwork on the Castle Glacier, 2007](/images/DSCN1967.JPG "Fieldwork on the Castle Glacier, 2007")
+![Fieldwork on the Castle Glacier, 2007](/images/DSCN1967.jpg "Fieldwork on the Castle Glacier, 2007")
 
 My renewable energy career started in 2008 when I joined a wind energy consultancy in Vancouver, BC. In late 2009 I returned to Davos to continue research on winds in complex terrain. In true postdoc style the nomadic life continued, and in 2011 I went to the US National Renewable Energy Laboratory ([NREL](http://www.nrel.gov)) near Denver, where I led research into wind and solar energy resources. 
 
-![The view from the office at the NWTC](/images/IMG_0130.JPG "The view from the office at the NWTC")
+![The view from the office at the NWTC](/images/IMG_0130.jpg "The view from the office at the NWTC")
 
 Since 2017 I've been the Managing Director of the wind energy research cluster [WindForS](https://www.windfors.de), where I coordinate activities by 25 research teams at 8 organizations across southern Germany. I also lead the international collaborative R&D effort [IEA Wind Task 32 on wind lidar for wind energy deployments](https://community.ieawind.org/task32).
 

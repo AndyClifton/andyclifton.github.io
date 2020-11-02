@@ -13,7 +13,7 @@ Wind lidar allow the remote measurement of wind speed from the ground, from wind
 
 Because it has so many applications and replaces other devices that have been in use for decades, wind lidar is quite a disruptive technology. I've experienced this process from several different perspectives over the last decade. I've been a lidar vendor trying to sell lidar; I've been a consultant, helping clients adopt it; I've been a researcher, trying to advance the state of the art [^Newman_Clifton_2017]; and since 2018, I've been the Operating Agent of an IEA Wind Task working to enable international collaboration [^Clifton_Clive_2018].
 
-![Photo by Andy Clifton, NREL 24386](/images/24386.JPG "Photo by Andy Clifton, NREL 24386")
+![Photo by Andy Clifton, NREL 24386](/images/24386.jpg "Photo by Andy Clifton, NREL 24386")
 _Getting experience with lidar at the NWTC. Photo by Andy Clifton, NREL 24386_
 
 ## The process of technology adoption

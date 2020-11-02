@@ -17,7 +17,7 @@ Networks bring together communities, professionals, and others to address common
 
 I've been involved with setting up and running common-interest professional networks for over a decade. I've made my fair share of mistakes, and in this article I set out some of the lessons I've learned as a participant and a leader.
 
-![Photo by Alina Grubnyak](/images/alina-grubnyak-ZiQkhI7417A-unsplash.JPG "Photo by Alina Grubnyak")
+![Photo by Alina Grubnyak](/images/alina-grubnyak-ZiQkhI7417A-unsplash.jpg "Photo by Alina Grubnyak")
 
 _Networks connect many people and organisations to leverage their members' skills. Photo by [Alina Grubnyak](https://unsplash.com/@alinnnaaaa) on [Unsplash](https://unsplash.com/@alinnnaaaa)_
 
@@ -52,7 +52,7 @@ Your events are also communications. Many networks have held webinars during the
 
 Review what works, and don't ignore new trends if they can help you reach different groups.
 
-![Photo by Jason Rosewell](/images/jason-rosewell-ASKeuOZqhYU-unsplash.JPG "Photo by Jason Rosewell")
+![Photo by Jason Rosewell](/images/jason-rosewell-ASKeuOZqhYU-unsplash.jpg "Photo by Jason Rosewell")
 
 _Communications is not just about being loud. Photo by [Jason Rosewell](https://unsplash.com/@jasonrosewell) on [Unsplash](https://unsplash.com/@jasonrosewell)_
 
@@ -83,7 +83,7 @@ Your outputs are also part of your marketing. Simple, non-intrusive branding can
 ## Your network is a startup
 Don't be afraid to admit that things aren't working. Give things some time, sure, but at some point you will need to realise that you aren't as successful as you wanted to be, or the conditions around you have changed. Then, its time to try something a bit different. 
 
-![Photo by chuttersnap](/images/chuttersnap-u3ZDnIMCfIs-unsplash.JPG "Photo by chuttersnap")
+![Photo by chuttersnap](/images/chuttersnap-u3ZDnIMCfIs-unsplash.jpg "Photo by chuttersnap")
 
 _Photo by [chuttersnap](https://unsplash.com/@chuttersnap?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/@chuttersnap?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_
 
@@ -97,6 +97,6 @@ Set a regular date to review progress and make sure your network's culture enabl
 ## Delegate
 If all this sounds a bit much, don't forget to delegate! You are setting up a network of people to do something. By definition, they want to help. Let them! Don't be afraid to ask for help. You will not "lose control"; this network is not about you. If you have a strong vision and communicate well internally, you'll be fine. Trust your colleagues.
 
-![Photo by chuttersnap](/images/alora-griffiths-AFP680B7mxc-unsplash.JPG "Photo by chuttersnap")
+![Photo by Alora Griffiths](/images/alora-griffiths-AFP680B7mxc-unsplash.jpg "Photo by Alora Griffiths")
 
 _A network leader doesn't have to be Atlas, carrying everything alone. Photo by [Alora Griffiths](https://unsplash.com/@aloragriffiths) on [Unsplash](https://unsplash.com/@aloragriffiths)_
