@@ -21,7 +21,7 @@ I've been involved with setting up and running common-interest professional netw
 
 _Networks connect many people and organisations to leverage their members' skills. Photo by [Alina Grubnyak](https://unsplash.com/@alinnnaaaa) on [Unsplash](https://unsplash.com/@alinnnaaaa)_
 
-## Its not about you
+## It's not about you
 This should be obvious, but... be sure that your decision to set up a network is driven by the needs of the members or those that it is intended to help, not by your own ego.
 
 ## Are you legitimate?
@@ -85,7 +85,7 @@ Don't be afraid to admit that things aren't working. Give things some time, sure
 
 ![Photo by chuttersnap](/images/chuttersnap-u3ZDnIMCfIs-unsplash.jpg "Photo by chuttersnap")
 
-_Photo by [chuttersnap](https://unsplash.com/@chuttersnap?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/@chuttersnap?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_
+_Sometimes things will go wrong. This isn't always bad - it can be an opportunity to try something new. Photo by [chuttersnap](https://unsplash.com/@chuttersnap?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/@chuttersnap?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_
 
 If you've got far enough to ask how things are going, they must be _goiing_, so don't throw it all out. Keep your brand, for example, but don't hesitate to rethink what you do, or why. You might have to go through something even more painful, like pruning your network; but given that your members are (normally) your strength, it's usually much better to work out how to realign the network, the leadership, and it's members.
 
