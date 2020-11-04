@@ -2,6 +2,9 @@
 permalink: /impressum/
 title: "Impressum"
 modified: 2020-11-01
+redirect_from:
+  - /publisher
+  - /legal
 ---
 
 ## Editorial independence
