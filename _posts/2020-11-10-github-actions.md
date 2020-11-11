@@ -1,7 +1,7 @@
 ---
 title: "GitHub Actions - XeLaTeX"
 date: 2020-11-10
-excerpt: "How to keep latex documents up-to-date using GitHub actions<br/><img src='/images/2020-11-github-actions-xelatex/.png' style='border: 1px solid;'>"
+excerpt: "How to keep latex documents up-to-date using GitHub actions<br/><img src='/images/2020-11-github-actions-xelatex.png' style='border: 1px solid;'>"
 permalink: /posts/2020/11/github-actions-xelatex/
 tags:
   - software development
