@@ -17,7 +17,7 @@ Let's do all of this with reference to the material in https://github.com/LIKE-I
 
 There are a lot of files in there, but there is at least some structure. Each seminar has its own directory, which includes all of the images, etc. need to generate the PDF and notes:
 
-<pre>
+<code>
 .
 ├── 00_handbook
 │   └── readme.md
@@ -52,7 +52,7 @@ There are a lot of files in there, but there is at least some structure. Each se
 └── scripts
     └── build_beamer.sh
 
-</pre>
+</code>
 
 ## The constraints
 I would like to be able to choose which PDFs get (re)generated. This means that ideally, I would set up my action so that I could just change one or two commands when I need to compile new material.
@@ -71,7 +71,7 @@ GitHub actions use a workflow file to trigger and run the CI. These are stored i
 First, we decide when to execute the workflow. I decided to do this every time there was a new version of my files, to avoid getting out of sync. This is set up in the first part of my *workflow_1.yaml* file:
 
 **workflow_1.yaml**
-<pre>
+<code>
 name: run_beamer
 
 # Controls when the action will run. Triggers the workflow on push or pull request
@@ -82,22 +82,22 @@ on:
   pull_request:
     branches: [ master ]
 
-</pre>
+</code>
 
 The next step is to set up a job to build the PDFs. This runs on a linux virtual machine. I decided to run it on the latest build. This may cause trouble long-term...
 
-<pre>
+<code>
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   build_PDFs:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
-</pre>
+</code>
 
 Then I wanted to get a fairly complete latex version installed, and get my code downloaded. We'll do that in two steps. First, let's get a latex installation:
 
-<pre>
+<code>
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       
@@ -111,11 +111,11 @@ Then I wanted to get a fairly complete latex version installed, and get my code 
           sudo apt-get install -y texlive-lang-german
           sudo apt-get install -y texlive-fonts-recommended
           sudo apt-get install -y texlive-fonts-extra
-</pre>
+</code>
 
 Then, we can get the code downloaded.
 
-<pre>
+<code>
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       - name: Pull
@@ -123,26 +123,26 @@ Then, we can get the code downloaded.
           git config user.name github-actions
           git config user.email github-actions@github.com
           git pull      
-</pre>
+</code>
 
 Now we can execute our arbitrary code:
 
-<pre>
+<code>
       # Runs a set of commands using the runners shell
       - name: Run beamer script
         run: |
           sh ./scripts/build_beamer.sh
-</pre>
+</code>
 
 And the last step is to push the results back to my GitHub repository.
 
-<pre>
+<code>
       - name: Commit
         run: |
           git add .
           git diff-index --quiet HEAD || git commit -m "action generated new PDFs using beamer"
           git push
-</pre>
+</code>
 
 The biggest problem with these workflows is **debugging** them. You can help yourself by putting in lots of steps and using the [GitHub interface](https://docs.github.com/en/free-pro-team@latest/actions/managing-workflow-runs/viewing-workflow-run-history) to see what works (or fails). If you have any problems beyond that, I suggest searching stackoverflow.
 
@@ -150,24 +150,24 @@ The biggest problem with these workflows is **debugging** them. You can help you
 I use `latexmk` to simplify the process of building the PDF from the latex source. The script itself is nothing fancy; just make sure I am in the right directory, and off we go:
 
 **build_beamer.sh**
-<pre>
+<code>
 #!/bin/bash
 
 cd 07_seminar4/beamer
 latexmk -f -xelatex main.tex
 latexmk -c
 cd ~
-</pre>
+</code>
 
 ### Using latexmk
 
-The final `latexmk -c`  in the shell script about cleans up the directory.
+The final `latexmk -c` in the shell script, cleans up the directory.
 
-To make this work we need one last file, `.latexmkrc`. You can put this in the current working directory.
+To make this work we need one last file, *.latexmkrc*. You can put this in the current working directory.
 
-<pre>
+<code>
 $clean_ext = 'synctex.gz synctex.gz(busy) run.xml tex.bak bbl bcf fdb_latexmk run tdo %R-blx.bib nav snm xdv'
-</pre>
+</code>
 
 See [this answer](https://tex.stackexchange.com/a/83386/29222) on tex.stackexchange.com for more information.
 
