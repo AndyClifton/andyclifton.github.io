@@ -132,6 +132,7 @@ tt, code, kbd, samp, pre {
 
 pre {
   overflow-x: auto; /* add scrollbars to wide code blocks*/
+  background: $code-background-color;
 }
 
 p > code,
