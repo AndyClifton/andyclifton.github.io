@@ -1,6 +1,5 @@
 ---
 title: "Teaching Open Science"
-permalink: /portfolio/teaching-open-science/
 excerpt: "Open science is the movement to make all aspects of scientific research accessible to society. But how do you teach a movement?<br/><img src='/images/OpenScience-Seminar1-500W.png' style='border: 1px solid;'>"
 date: 2020-11-01
 permalink: /posts/2020/11/open-science/
