@@ -144,7 +144,9 @@ And the last step is to push the results back to my GitHub repository.
 The biggest problem with these workflows is **debugging** them. You can help yourself by putting in lots of steps and using the [GitHub interface](https://docs.github.com/en/free-pro-team@latest/actions/managing-workflow-runs/viewing-workflow-run-history) to see what works (or fails). If you have any problems beyond that, I suggest searching stackoverflow.
 
 ### The shell script
-I use `latexmk` to simplify the process of building the PDF from the latex source. The script itself is nothing fancy; just make sure I am in the right directory, and off we go:
+I use [`latexmk`](https://ctan.org/pkg/latexmk/?lang=en) to simplify the process of building the PDF from the latex source. `latexmk` will iteratively run LaTeX until the document compiles and so is ideally suited to headless tasks like this.
+
+The script itself is nothing fancy; just make sure I am in the right directory, and off we go:
 
 **build_beamer.sh**
 <pre>
@@ -157,6 +159,8 @@ cd ~
 </pre>
 
 ### Using latexmk
+
+The first call `latexmk -f -xelatex main.tex` just runs xelatex on the file, main.tex.
 
 The final `latexmk -c` in the shell script, cleans up the directory.
 
