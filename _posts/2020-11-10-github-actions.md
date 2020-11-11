@@ -110,7 +110,7 @@ Then I wanted to get a fairly complete latex version installed, and get my code 
           sudo apt-get install -y texlive-fonts-extra
 </pre>
 
-Then, we can get the code downloaded.
+Then, we can get the repository downloaded.
 
 <pre>
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
