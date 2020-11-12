@@ -1,7 +1,7 @@
 ---
 title: "GitHub Actions - XeLaTeX"
 date: 2020-11-10
-excerpt: "How to keep latex documents up-to-date using GitHub actions<br/><img src='/images/2020-11-10-github-actions-xelatex.png' style='border: 1px solid;'>"
+excerpt: "How to keep latex documents up-to-date using GitHub actions<br/><img src='/images/2020-11-10-github-actions-xelatex.png' style='border: 1px solid; max-width: 500px;'>"
 permalink: /posts/2020/11/github-actions-xelatex/
 tags:
   - software development
@@ -176,3 +176,5 @@ See [this answer](https://tex.stackexchange.com/a/83386/29222) on tex.stackexcha
 The workflow above takes about 4 minutes to run on GitHub. It's fairly reliable but could be improved, for example by using caching between commits to avoid spinning up a new machine every time.
 
 You can see the whole thing in use as part of my [open science course](https://github.com/LIKE-ITN/OpenScienceTrainingCourse).
+
+![It works!](/images/2020-11-10-github-actions-xelatex.png)
