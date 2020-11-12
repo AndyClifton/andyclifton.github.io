@@ -166,6 +166,7 @@ The final `latexmk -c` in the shell script, cleans up the directory.
 
 To make this work we need one last file, *.latexmkrc*. You can put this in the current working directory.
 
+**.latexmkrc**
 <pre>
 $clean_ext = 'synctex.gz synctex.gz(busy) run.xml tex.bak bbl bcf fdb_latexmk run tdo %R-blx.bib nav snm xdv'
 </pre>
