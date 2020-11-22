@@ -24,7 +24,7 @@ _The view from the office at the National Wind Technology Center_
 
 Since 2017 I've been the Managing Director of the wind energy research cluster [WindForS](https://www.windfors.de), where I coordinate activities by 25 research teams at 8 organizations across southern Germany. I also lead the international collaborative R&D effort [IEA Wind Task 32 on wind lidar for wind energy deployments](https://community.ieawind.org/task32).
 
-Want to know more? [Download my CV](){: .btn}
+Want to know more? [Download my CV](/files/CliftonAndrew_CV_20201101.pdf){: .btn} ([auch auf Deutsch verfügbar](/files/CliftonAndrew_CV_20201101_DE.pdf))
 
 # Major interests
 ----
