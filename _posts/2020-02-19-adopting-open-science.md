@@ -41,7 +41,7 @@ Implementing open science means implementing policies and technical measures tha
 
 What this means depends on context, but I like this one that talks about how to implement open science as part of a project:
 
-![Promoting openness at different stages of the research process](/images/OpenScienceResearchInitiative-ResearchLifecycle.PNG "Open Science applied to the project lifecycle")
+![Promoting openness at different stages of the research process](/images/OpenScienceResearchInitiative-ResearchLifecycle.png "Open Science applied to the project lifecycle")
 
 _From "The Open Science Handbook" (Open Science and Research Initiative, 2014). Used under the Creative Commons Attribution 4.0 International Public License._
 
@@ -132,5 +132,6 @@ But, the benefits are potentially huge. Given those challenges and the potential
 
 Rather than just being a philosphy, open science can be defined as a series of concrete, tangible activities. This opens the door for organisations in academia and private industry to adopt it, monitor their adoption, and ultimately profit from it.
 
+_For more about Open Science, see my course on [GitHub](https://github.com/LIKE-ITN/OpenScienceTrainingCourse)_
 
 [^FAIR]: Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3, 160018 (2016). [https://doi.org/10.1038/sdata.2016.18](https://doi.org/10.1038/sdata.2016.18)
