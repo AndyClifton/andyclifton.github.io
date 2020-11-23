@@ -1,7 +1,8 @@
 ---
 title: "GitHub Actions - XeLaTeX"
 date: 2020-11-10
-excerpt: "How to keep latex documents up-to-date using GitHub actions<br/><img src='/images/2020-11-10-github-actions-xelatex.png' style='border: 1px solid; max-width: 500px;'>"
+excerpt: How to keep latex documents up-to-date using GitHub actions
+featured-image: /images/2020-11-10-github-actions-xelatex.png
 permalink: /posts/2020/11/github-actions-xelatex/
 tags:
   - software development
@@ -144,7 +145,7 @@ And the last step is to push the results back to my GitHub repository.
 The biggest problem with these workflows is **debugging** them. You can help yourself by putting in lots of steps and using the [GitHub interface](https://docs.github.com/en/free-pro-team@latest/actions/managing-workflow-runs/viewing-workflow-run-history) to see what works (or fails). If you have any problems beyond that, I suggest searching stackoverflow.
 
 ### The shell script
-I use [`latexmk`](https://ctan.org/pkg/latexmk/?lang=en) to simplify the process of building the PDF from the latex source. `latexmk` will iteratively run LaTeX until the document compiles and so is ideally suited to headless tasks like this.
+I use _[latexmk](https://ctan.org/pkg/latexmk/?lang=en)_ to simplify the process of building the PDF from the latex source. _latexmk_ will iteratively run LaTeX until the document compiles and so is ideally suited to headless tasks like this.
 
 The script itself is nothing fancy; just make sure I am in the right directory, and off we go:
 
@@ -160,11 +161,11 @@ cd ~
 
 ### Using latexmk
 
-The first call `latexmk -f -xelatex main.tex` just runs xelatex on the file, main.tex.
+The first call `latexmk -f -xelatex main.tex` just runs XeLaTeX on the _main.tex_ file.
 
 The final `latexmk -c` in the shell script, cleans up the directory.
 
-To make this work we need one last file, *.latexmkrc*. You can put this in the current working directory.
+To make this work we need one last file, called *.latexmkrc*. This stores some preferences for _latexmk_. You can put this in the current working directory.
 
 **.latexmkrc**
 <pre>

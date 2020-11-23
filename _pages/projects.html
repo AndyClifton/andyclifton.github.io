@@ -1,0 +1,18 @@
+---
+layout: archive
+title: "Projects"
+permalink: /projects/
+author_profile: true
+---
+
+{% include base_path %}
+
+<div class="container">
+  <div class="row mb-1">
+    {% for post in site.projects %}
+    <div class="col-12 col-md-6 col-lg-4 col-xl-4 mb-1 mx-0 px-1">
+      {% include archive-single-card.html %}
+    </div>
+    {% endfor %}
+  </div>
+</div>

@@ -1,8 +1,9 @@
 ---
-title: "Collaborative R&D Networks"
-excerpt: "Research networks are essential for succesful RD&D. In this first of a series about research networks I'll share some of my experience and ideas about how to set up and run them, what makes them effective, and how benefit from them.<br/><img src='/images/alina-grubnyak-ZiQkhI7417A-unsplash_500W.jpg' style='border: 1px solid;'>"
+title: "R&D Network Management"
+excerpt: Research networks are essential for succesful RD&D. I've been involved in several over the years.
+featured-image: /images/alina-grubnyak-ZiQkhI7417A-unsplash_500W.jpg
 date: 2020-05-01
-permalink: /posts/2020/05/networks/
+permalink: /projects/2020/05/networks/
 tags:
   - Research networks
   - Community engagement

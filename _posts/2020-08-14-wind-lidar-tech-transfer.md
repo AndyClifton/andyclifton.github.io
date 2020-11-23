@@ -1,6 +1,7 @@
 ---
 title: "Wind lidar technology transfer"
-excerpt: "Wind lidar have applications to wind energy, transport, and many other sectors. I've been involved with research, development and deployment of wind lidar since 2008.<br/><img src='/images/24386_500W.jpg' style='border: 1px solid;'>"
+excerpt: Wind lidar have applications to wind energy, transport, and many other sectors. I've been involved with research, development and deployment of wind lidar since 2008.
+featured-image: /images/24386_500W.jpg
 date: 2020-08-14
 permalink: /posts/2020/08/wind-lidar-tech-transfer/
 tags:

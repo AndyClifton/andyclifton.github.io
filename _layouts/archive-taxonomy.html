@@ -9,8 +9,14 @@ author_profile: false
   <div class="archive">
     <h1 class="page__title">{{ page.title }}</h1>
     {% include base_path %}
-    {% for post in page.posts %}
-      {% include archive-single.html %}
-    {% endfor %}
+    <div class="container">
+      <div class="row mb-1">
+        {% for post in page.posts %}
+        <div class="col-12 col-md-6 col-lg-4 col-xl-4 mb-1 mx-0 px-1">
+          {% include archive-single-card.html %}
+        </div>
+        {% endfor %}
+      </div>
+    </div>
   </div>
 </div>

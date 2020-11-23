@@ -9,16 +9,22 @@ author_profile: true
 {% capture written_label %}'None'{% endcapture %}
 
 {% for collection in site.collections %}
-  {% unless collection.output == false or collection.label == "posts" %}
-    {% capture label %}{{ collection.label }}{% endcapture %}
-    {% if label != written_label %}
-      <h2 id="{{ label | slugify }}" class="archive__subtitle">{{ label }}</h2>
-      {% capture written_label %}{{ label }}{% endcapture %}
-    {% endif %}
-  {% endunless %}
-  {% for post in collection.docs %}
-    {% unless collection.output == false or collection.label == "posts" %}
-      {% include archive-single.html %}
-    {% endunless %}
-  {% endfor %}
+{% unless collection.output == false or collection.label == "posts" %}
+{% capture label %}{{ collection.label }}{% endcapture %}
+{% if label != written_label %}
+<h2 id="{{ label | slugify }}" class="archive__subtitle">{{ label }}</h2>
+{% capture written_label %}{{ label }}{% endcapture %}
+{% endif %}
+{% endunless %}
+<div class="container">
+  <div class="row mb-1">
+    {% for post in collection.docs %}
+    <div class="col-12 col-md-6 col-lg-4 col-xl-4 mb-1 mx-0 px-1">
+      {% unless collection.output == false or collection.label == "posts" %}
+      {% include archive-single-card.html %}
+      {% endunless %}
+    </div>
+    {% endfor %}
+  </div>
+</div>
 {% endfor %}

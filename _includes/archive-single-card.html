@@ -1,0 +1,33 @@
+{% include base_path %}
+
+<div class="card">
+  {% if post.featured-image %}
+  <img src='{{ post.featured-image }}' style='width: 100%; max-width: 100%;'>
+  {% endif %}
+  <div class="card-body">
+    <h3 class="card-title"><a
+        href="{{ base_path }}{{ post.url }}">{{ post.title | markdownify | remove: "<p>" | remove: "</p>"  }}</a>
+    </h3>
+    <p class="card-text">
+      {{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>'}}</p>
+    {% if post.link %}
+    <a href="{{ base_path }}{{ post.url }}" class="btn btn-primary">Read more</a>
+    {% endif %}
+  </div>
+  <div class="card-footer text-muted">
+    {% if post.date %}
+    <span class="page__meta mt-1">
+      <i class="fa fa-calendar-o" aria-hidden="true"></i>
+      <time
+        datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time>
+        <br>
+    </span>
+    {% endif %}
+    {% if post.read_time %}
+    <span class="page__meta mt-1">
+      <i class="fa fa-clock-o" aria-hidden="true"></i>
+      {% include read-time.html %}
+    </span>
+    {% endif %}
+  </div>
+</div>

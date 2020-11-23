@@ -2,6 +2,7 @@
 title: 'Building successful networks'
 date: 2020-09-01
 permalink: /posts/2020/09/building-networks/
+featured-image: /images/alina-grubnyak-ZiQkhI7417A-unsplash.jpg
 tags:
   - Networking
   - Leadership
@@ -64,7 +65,7 @@ Adopt a default policy of being open and willing to share everything you do. It'
 - Avoid decisions made between two members of the board over a drink. 
 - Communicate, communicate, communicate. 
 
-Openness can have different implications for different networks. For example, if you are doing something technical, you might want to think about adopting [Open Science principles](../portfolio/portfolio-1-open-science). But in general, embrace the open mindset and then ask yourselves how you can implement it in your network.
+Openness can have different implications for different networks. For example, if you are doing something technical, you might want to think about adopting [Open Science principles](../projects/projects-1-open-science). But in general, embrace the open mindset and then ask yourselves how you can implement it in your network.
 
 
 ## Embrace marketing

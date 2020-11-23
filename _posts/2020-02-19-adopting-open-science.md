@@ -1,6 +1,8 @@
 ---
 title: 'What adopting "open science" means for you and your organization'
 date: 2020-02-19
+excerpt: This article discusses some of the goals, problems, and opportunities associated with implementing open science in a STEM organisation.
+featured-image: /images/OpenScienceResearchInitiative-ResearchLifecycle.png
 permalink: /posts/2020/02/adopting-open-science/
 tags:
   - Open science

@@ -8,14 +8,33 @@ redirect_from:
   - /about.html
 ---
 
-Originally trained as a mechanical engineer, I work to enable the global deployment of renewable energy. I do this through my own research and by working hard to share what I do with others. 
+Originally trained as a mechanical engineer, I work to enable the global deployment of renewable energy. I do this through my own research; by sharing what I do with others; and by helping others to share their work. 
 
-Checkout [my writing](/blog) and [biography](/bio) for more information.
+Checkout [my portfolio](/projects), [writing](/blog), or [biography](/bio) for more information.
 
-## Recent posts
+
+## Recent writing
 {% include base_path %}
+<div class="container">
+<div class="row mb-1">
 {% for post in site.posts limit:3 %}
-{% include archive-single.html %}
+<div class="col-12 col-md-6 col-lg-4 col-xl-4 mb-1 mx-0 px-1">
+{% include archive-single-card.html %}
+</div>
 {% endfor %}
-
+</div>
+</div>
 [Read more of my writing](/blog).
+
+## My portfolio
+{% include base_path %}
+<div class="container">
+<div class="row mb-3">
+{% for post in site.projects limit:5 %}
+<div class="col-12 col-md-6 col-lg-4 col-xl-4 mb-1 mx-0 px-1">
+{% include archive-single-card.html %}
+</div>
+{% endfor %}
+</div>
+</div>
+[See more of my projects](/projects).
