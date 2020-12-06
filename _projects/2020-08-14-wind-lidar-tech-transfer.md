@@ -5,7 +5,7 @@ featured-image: /images/24386_500W.jpg
 date: 2020-08-14
 permalink: /posts/2020/08/wind-lidar-tech-transfer/
 tags:
-  - Networking
+  - Research networks
   - Stakeholder engagement
   - Lessons learned 
 ---

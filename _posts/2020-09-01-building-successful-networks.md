@@ -4,8 +4,7 @@ date: 2020-09-01
 permalink: /posts/2020/09/building-networks/
 featured-image: /images/alina-grubnyak-ZiQkhI7417A-unsplash.jpg
 tags:
-  - Leadership
-  - Communities
+  - Research networks
   - Stakeholder engagement
   - Lessons learned 
 ---

@@ -7,7 +7,8 @@ permalink: /posts/2020/02/adopting-open-science/
 tags:
   - Open science
   - Leadership
-  - Lessons learned 
+  - Lessons learned
+  - Productivity
 ---
 
 This article discusses some of the goals, problems, and opportunities associated with implementing open science in an organisation. That could be from 5 to 50,000 people across tech, engineering, education, or research. And by science, I mean anything from hardcore engineering to the natural sciences, to software development.

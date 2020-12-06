@@ -5,7 +5,7 @@ excerpt: How to keep latex documents up-to-date using GitHub actions
 featured-image: /images/2020-11-10-github-actions-xelatex.png
 permalink: /posts/2020/11/github-actions-xelatex/
 tags:
-  - software development
+  - Software development
   - LaTeX
 ---
 
