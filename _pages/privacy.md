@@ -6,11 +6,9 @@ modified: 2020-11-30
 
 {% include base_path %}
 
-## Privacy Policy
-
 The privacy of my visitors is extremely important. This Privacy Policy outlines the types of personal information that is received and collected and how it is used.
 
-### Designation of the responsible authority
+## Designation of the responsible authority
 
 The person responsible for data processing on this website is
 
@@ -21,7 +19,7 @@ Germany</p>
 
 The responsible body decides alone or jointly with others on the purposes and means of processing personal data (e.g. names, contact details, etc.).
 
-### Log Files
+## Log Files
 
 Like many other websites, this site uses log files to help learn about when, from where, and how often traffic flows to this site. The information in these log files include:
 
@@ -34,7 +32,7 @@ Like many other websites, this site uses log files to help learn about when, fro
 
 All of this information is not linked to anything that is personally identifiable.
 
-### Cookies and Web Beacons
+## Cookies and Web Beacons
 
 I use cookies on this site to store limited information about how you interact with the site. In line with [EU legislation](https://gdpr.eu/cookies/), I have identified several different types of cookies:
 - **Strictly necessary cookies**. 
@@ -44,25 +42,25 @@ I use cookies on this site to store limited information about how you interact w
   - Google Analytics
 - **Marketing cookies** to help advertisers deliver relevant content are not used on this website.
 
-### Google Analytics
+## Google Analytics
 
 Google Analytics is a web analytics tool I use to help understand how visitors engage with this website. It reports website trends using cookies and web beacons without identifying individual visitors. Individual IP addresses are anonymized. You can read [Google Analytics Privacy Policy](http://www.google.com/analytics/learn/privacy.html).
 
-#### Objection to data collection
+### Objection to data collection
 
 You can prevent the collection of your data by Google Analytics by clicking on the following link [https://tools.google.com/dlpage/gaoptout?hl=en](https://tools.google.com/dlpage/gaoptout?hl=en). An opt-out cookie is set to prevent the collection of your information on future visits to our site: Disable Google Analytics.
 
 Details on how Google Analytics handles user data can be found in the Google privacy policy: [https://support.google.com/analytics/answer/6004245?hl=de](https://support.google.com/analytics/answer/6004245?hl=de).
 
-#### Order processing
+### Order processing
 
 To fully comply with the legal data protection requirements, I have concluded a contract with Google for order processing.
 
-#### Demographic characteristics at Google Analytics
+### Demographic characteristics at Google Analytics
 
 This website uses the function "demographic characteristics" of Google Analytics. It can be used to generate reports that contain information about the age, gender and interests of visitors to the site. This data comes from interest-based advertising by Google as well as from visitor data from third parties. It is not possible to assign the data to a specific person. You can deactivate this function at any time. You can do this through the ad settings in your Google Account or by generally prohibiting the collection of your data by Google Analytics, as explained in the section "Opting out of data collection".
 
-### Google Web Fonts
+## Google Web Fonts
 
 This website uses Web Fonts from Google. The provider is Google Inc, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA.
 
@@ -70,11 +68,4 @@ The use of Google Fonts allows me to present this website using my choice of fon
 
 The company Google is certified for the US-European data protection convention "Privacy Shield". This data protection agreement is intended to ensure compliance with the level of data protection applicable in the EU.
 
-Details about Google Web Fonts can be found here: [https://www.google.com/fonts#AboutPlace:about](https://www.google.com/fonts#AboutPlace:about) and further information in the Google Privacy Policy: [https://policies.google.com/privacy/partners?hl=de](https://policies.google.com/privacy/partners?hl=de)
-
-
-
-
-
-
-
+Details about Google Web Fonts can be found here: [https://www.google.com/fonts#AboutPlace:about](https://www.google.com/fonts#AboutPlace:about) and further information in the Google Privacy Policy: [https://policies.google.com/privacy/partners?hl=de](https://policies.google.com/privacy/partners?hl=de).

@@ -4,9 +4,8 @@ date: 2020-09-01
 permalink: /posts/2020/09/building-networks/
 featured-image: /images/alina-grubnyak-ZiQkhI7417A-unsplash.jpg
 tags:
-  - Networking
   - Leadership
-  - Community engagement
+  - Communities
   - Stakeholder engagement
   - Lessons learned 
 ---
@@ -14,7 +13,7 @@ tags:
 Networks of people and organisations can be amazingly effective ways of addressing a community's needs. But there are many challenges that the network needs to overcome. What do you need to do to be successful?
 
 ## Why we build networks
-Networks bring together communities, professionals, and others to address common needs. A network is not just your usual club or society; networks help people meet and work together with a common goal. This could be for anything from fundraising to urban renewal, or from wind turbines to face masks. Virtual or in-person. Local or global. The possibilities are endless.
+Networks bring together people and organisations, creating a community to address common needs. A network is not just your usual club or society; networks help people meet and work together with a common goal. This could be for anything from fundraising to urban renewal, or from wind turbines to face masks. Virtual or in-person. Local or global. The possibilities are endless.
 
 I've been involved with setting up and running common-interest professional networks for over a decade. I've made my fair share of mistakes, and in this article I set out some of the lessons I've learned as a participant and a leader.
 

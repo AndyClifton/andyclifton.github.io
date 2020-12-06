@@ -88,6 +88,13 @@ author:
   pubmed           : 
   googlescholar    : "https://scholar.google.de/citations?hl=en&user=OCT6OOsAAAAJ"
   email            : andy@andyclifton.me
+  tags:
+    - R&D management
+    - Strategy
+    - Wind energy
+    - Business development
+    - Commercialisation
+    - Digitalisation
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -175,19 +182,12 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
-  publications:
-    output: true
-    permalink: /:collection/:path/
   projects:
     output: true
     permalink: /:collection/:path/
-  talks:
+  posts:
     output: true
-    permalink: /:collection/:path/
-
+    permalink: /:collection/:year/:month/:title/
 
 # Defaults
 defaults:
@@ -209,24 +209,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _publications
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
   # _projects
   - scope:
       path: ""
@@ -236,14 +218,7 @@ defaults:
       author_profile: true
       share: true
       comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
+  
 
 # Sass/SCSS
 sass:
@@ -290,17 +265,7 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
-# https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+
 
 
 # HTML Compression

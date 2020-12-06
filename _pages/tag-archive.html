@@ -6,12 +6,33 @@ author_profile: true
 ---
 
 {% include base_path %}
-{% include group-by-array collection=site.posts field="tags" %}
 
-{% for tag in group_names %}
-  {% assign posts = group_items[forloop.index0] %}
-  <h2 id="{{ tag | slugify }}" class="archive__subtitle">{{ tag }}</h2>
-  {% for post in posts %}
-    {% include archive-single.html %}
-  {% endfor %}
+{% assign alldocs = site.documents %}
+{% assign grouptag =  alldocs | map: 'tags' | join: ','  | split: ','  | group_by: tag %}
+{% assign grouptag_sorted = grouptag | sort: 'size' | reverse  %}
+
+<!--give the list of tags-->
+<p><strong><i class="fa fa-fw fa-tags" aria-hidden="true"></i>
+  {{ site.data.ui-text[site.locale].tags_label | default: "Tags:" }} </strong>
+{% for tag in grouptag_sorted %}
+<a href="#{{ tag.name | slugify }}" rel="tag">{{ tag.name }}
+  ({{tag.size}})</a>{% unless forloop.last %}, {% endunless %}
+{% endfor %}
+</p>
+
+<!-- give the list of pages for each tag-->
+{% for tag in grouptag_sorted %}
+<h2 id="{{ tag.name | slugify }}">{{ tag.name }}</h2>
+<div class="container">
+  <div class="row mb-1">
+    {% for document in alldocs %}
+    {% if document.tags contains tag.name %}
+    {% assign post = document %}
+    <div class="col-12 col-md-6 col-lg-4 col-xl-4 mb-1 mx-0 px-1">
+      {% include archive-single-card.html %}
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+</div>
 {% endfor %}
