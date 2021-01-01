@@ -2,7 +2,7 @@
 title: "Teaching Open Science"
 excerpt: Open science is the movement to make all aspects of scientific research accessible to society. But how do you teach a movement?
 date: 2020-11-01
-featured-image: /images/OpenScience-Seminar1-500W.png
+featured-image: /images/2020/11/OpenScience-Seminar1-500W.png
 permalink: /posts/2020/11/open-science/
 tags:
   - Open science
@@ -15,7 +15,7 @@ Because open science is so important, I joined forces with Nikola Vasiljevic at 
 
 So, in 2020 we set up a open-source "Open Science" course, designed as a series of seminars for up 20 people at a time. I've put most of the material and course structure together with a lot of input from Nikola about material and goals. [We put the course on GitHub](https://github.com/LIKE-ITN/OpenScienceTrainingCourse) and are now testing it out with students from across Europe, South America, and Asia. 
 
-![The first slide of my Open Science course, [available on GitHub](https://github.com/LIKE-ITN/OpenScienceTrainingCourse)](/images/OpenScience-Seminar1.png "Cover slide for our Open Science course")
+{% include image.html url="/images/2020/11/OpenScience-Seminar1.png" caption='The first slide of my open science course, available on <a href="https://github.com/LIKE-ITN/OpenScienceTrainingCourse">GitHub</a>.' alt="Cover slide for our Open Science course" %}
 
 The course covers everything you would need to start implementing open science in a typical small R&D group:
 

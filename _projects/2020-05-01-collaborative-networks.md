@@ -1,7 +1,7 @@
 ---
 title: "R&D Network Management"
-excerpt: Research networks are essential for succesful RD&D. I've been involved in several over the years.
-featured-image: /images/alina-grubnyak-ZiQkhI7417A-unsplash_500W.jpg
+excerpt: Research networks are essential for successful RD&D. I've been involved in several over the years.
+featured-image: /images/2020/09/alina-grubnyak-ZiQkhI7417A-unsplash_500W.jpg
 date: 2020-05-01
 permalink: /projects/2020/05/networks/
 tags:
@@ -19,9 +19,9 @@ I'm particularly pleased with the breadth and depth of the community that we've 
 
 It's not all plain sailing, though; I worry about how we get the next generation involved, and so we've recently started a collaboration with an EU-funded training network to get new PhD students integrated into the wider community.
 
-**The Power Curve Working Group** was an industry group aimed at understanding the real-world performance of wind turbines. The group carried out a series of data-sharing exercises that then morphed into _experience_ sharing exercises, which were a great way to understand the state of the wind energy industry in this area[^Lee_2020_a]. The PCWG is also a good example of what to do with a succesful network that has reached the end of its mandate. In 2020, the group was folded in to the Consortium for the Advancement of Remote Sensing (CFARS).
+**The Power Curve Working Group** was an industry group aimed at understanding the real-world performance of wind turbines. The group carried out a series of data-sharing exercises that then morphed into _experience_ sharing exercises, which were a great way to understand the state of the wind energy industry in this area[^Lee_2020_a]. The PCWG is also a good example of what to do with a successful network that has reached the end of its mandate. In 2020, the group was folded in to the Consortium for the Advancement of Remote Sensing (CFARS).
 
-What worked well here? Regular meetings to keep momentum. What didn't work so well? We produced a lot of material but didn't always capture it. So, in 2019 we started a [Zenodo repository]() to bring it together.
+What worked well here? Regular meetings to keep momentum. What didn't work so well? We produced a lot of material but didn't always capture it. So, in 2019 we started a [Zenodo repository](https://zenodo.org/communities/pcwg/?page=1&size=20) to bring it together.
 
 [^Clifton_2019_a]: Clifton, A. et al. (2018). "IEA Wind Task 32: Wind Lidar. Identifying and Mitigating Barriers to the Adoption of Wind Lidar." Remote Sens. 10, no. 3: 406. DOI: [10.3390/rs10030406](https://doi.org/10.3390/rs10030406)
 

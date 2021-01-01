@@ -1,8 +1,9 @@
 ---
 title: 'Building successful networks'
+excerpt: Networks of people and organisations can be amazingly effective ways of addressing a community's needs. But there are many challenges that the network needs to overcome. What do you need to do to be successful?
 date: 2020-09-01
 permalink: /posts/2020/09/building-networks/
-featured-image: /images/alina-grubnyak-ZiQkhI7417A-unsplash.jpg
+featured-image: /images/2020/09/alina-grubnyak-ZiQkhI7417A-unsplash.jpg
 tags:
   - Research networks
   - Stakeholder engagement
@@ -16,9 +17,7 @@ Networks bring together people and organisations, creating a community to addres
 
 I've been involved with setting up and running common-interest professional networks for over a decade. I've made my fair share of mistakes, and in this article I set out some of the lessons I've learned as a participant and a leader.
 
-![Photo by Alina Grubnyak](/images/alina-grubnyak-ZiQkhI7417A-unsplash.jpg "Photo by Alina Grubnyak")
-
-_Networks connect many people and organisations to leverage their members' skills. Photo by [Alina Grubnyak](https://unsplash.com/@alinnnaaaa) on [Unsplash](https://unsplash.com/@alinnnaaaa)_
+{% include image.html url="/images/2020/09/alina-grubnyak-ZiQkhI7417A-unsplash.jpg" caption='Networks connect many people and organisations to leverage their members skills. Photo by <a href="https://unsplash.com/@alinnnaaaa">Alina Grubnyak</a> on <a ref="https://unsplash.com">Unsplash</a>.' alt="Photo by Alina Grubnyak" %}
 
 ## It's not about you
 This should be obvious, but... be sure that your decision to set up a network is driven by the needs of the members or those that it is intended to help, not by your own ego.
@@ -51,9 +50,8 @@ Your events are also communications. Many networks have held webinars during the
 
 Review what works, and don't ignore new trends if they can help you reach different groups.
 
-![Photo by Jason Rosewell](/images/jason-rosewell-ASKeuOZqhYU-unsplash.jpg "Photo by Jason Rosewell")
+{% include image.html url="/images/2020/09/jason-rosewell-ASKeuOZqhYU-unsplash.jpg" caption='Communications is not just about being loud. Photo by <a href="https://unsplash.com/@jasonrosewell">Jason Rosewell</a> on <a ref="https://unsplash.com">Unsplash</a>.' alt="Photo by Jason Rosewell" %}
 
-_Communications is not just about being loud. Photo by [Jason Rosewell](https://unsplash.com/@jasonrosewell) on [Unsplash](https://unsplash.com/@jasonrosewell)_
 
 ## Be open
 What do you need to hide?
@@ -82,9 +80,7 @@ Your outputs are also part of your marketing. Simple, non-intrusive branding can
 ## Your network is a startup
 Don't be afraid to admit that things aren't working. Give things some time, sure, but at some point you will need to realise that you aren't as successful as you wanted to be, or the conditions around you have changed. Then, its time to try something a bit different. 
 
-![Photo by chuttersnap](/images/chuttersnap-u3ZDnIMCfIs-unsplash.jpg "Photo by chuttersnap")
-
-_Sometimes things will go wrong. This isn't always bad - it can be an opportunity to try something new. Photo by [chuttersnap](https://unsplash.com/@chuttersnap?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/@chuttersnap?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_
+{% include image.html url="/images/2020/09/chuttersnap-u3ZDnIMCfIs-unsplash.jpg" caption="Sometimes things will go wrong. This isn't always bad - it can be an opportunity to try something new. Photo by <a href='https://unsplash.com/@chuttersnap'>chuttersnap</a> on <a ref='https://unsplash.com'>Unsplash</a>." alt="Photo by chuttersnap" %}
 
 If you've got far enough to ask how things are going, they must be _goiing_, so don't throw it all out. Keep your brand, for example, but don't hesitate to rethink what you do, or why. You might have to go through something even more painful, like pruning your network; but given that your members are (normally) your strength, it's usually much better to work out how to realign the network, the leadership, and it's members.
 
@@ -96,6 +92,12 @@ Set a regular date to review progress and make sure your network's culture enabl
 ## Delegate
 If all this sounds a bit much, don't forget to delegate! You are setting up a network of people to do something. By definition, they want to help. Let them! Don't be afraid to ask for help. You will not "lose control"; this network is not about you. If you have a strong vision and communicate well internally, you'll be fine. Trust your colleagues.
 
-![Photo by Alora Griffiths](/images/alora-griffiths-AFP680B7mxc-unsplash.jpg "Photo by Alora Griffiths")
+{% include image.html url="/images/2020/09/alora-griffiths-AFP680B7mxc-unsplash.jpg" caption="A network leader doesn't have to be Atlas, carrying everything alone. Photo by <a href='https://unsplash.com/@aloragriffiths'>Alora Griffiths</a> on <a ref='https://unsplash.com'>Unsplash</a>." alt="Photo by Alora Griffiths" %}
 
-_A network leader doesn't have to be Atlas, carrying everything alone. Photo by [Alora Griffiths](https://unsplash.com/@aloragriffiths) on [Unsplash](https://unsplash.com/@aloragriffiths)_
+## Networks are about people
+
+At the end of the day, professional networks are just webs of personal relationships but with direction and purpose. All of the things that we do as people in our everyday lives to support our personal relationships apply to these networks as well. 
+
+If in doubt, just remember the golden rule - always treat others as you would like to be treated. 
+
+Good luck!

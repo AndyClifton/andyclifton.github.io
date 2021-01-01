@@ -1,7 +1,7 @@
 ---
-title: "GitHub Actions - XeLaTeX"
+title: "Running XeLaTeX using GitHub Actions"
 date: 2020-11-10
-excerpt: How to keep latex documents up-to-date using GitHub actions
+excerpt: GitHub actions allow you to use continuous integration to build LaTeX documents from your GitHub repositories
 featured-image: /images/2020-11-10-github-actions-xelatex.png
 permalink: /posts/2020/11/github-actions-xelatex/
 tags:
@@ -82,7 +82,7 @@ on:
 
 </pre>
 
-The next step is to set up a job to build the PDFs. This runs on a linux virtual machine. I decided to run it on the latest build. This may cause trouble long-term, but we'll deal with that another day.
+The next step is to set up a job to build the PDFs. This runs on a linux virtual machine. I decided to run it on the latest build. This may cause trouble with dependencies long-term, but we'll deal with that another day.
 
 <pre>
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
@@ -93,7 +93,7 @@ jobs:
 
 </pre>
 
-Then I wanted to get a fairly complete latex version installed, and get my code downloaded. We'll do that in two steps. First, let's get a latex installation:
+Then I wanted to get a fairly complete LaTeX version installed, and get my code downloaded. We'll do that in two steps. First, let's get a LaTeX installation and then install the recommended LaTeX packages:
 
 <pre>
     # Steps represent a sequence of tasks that will be executed as part of the job
@@ -142,7 +142,7 @@ And the last step is to push the results back to my GitHub repository.
           git push
 </pre>
 
-The biggest problem with these workflows is **debugging** them. You can help yourself by putting in lots of steps and using the [GitHub interface](https://docs.github.com/en/free-pro-team@latest/actions/managing-workflow-runs/viewing-workflow-run-history) to see what works (or fails). If you have any problems beyond that, I suggest searching stackoverflow.
+The biggest problem with these workflows is **debugging** them. You can help yourself by putting in lots of steps and using the [GitHub interface](https://docs.github.com/en/free-pro-team@latest/actions/managing-workflow-runs/viewing-workflow-run-history) to see what works (or fails). If you have any problems beyond that, I suggest searching Stackoverflow.
 
 ### The shell script
 I use _[latexmk](https://ctan.org/pkg/latexmk/?lang=en)_ to simplify the process of building the PDF from the latex source. _latexmk_ will iteratively run LaTeX until the document compiles and so is ideally suited to headless tasks like this.
@@ -175,7 +175,7 @@ $clean_ext = 'synctex.gz synctex.gz(busy) run.xml tex.bak bbl bcf fdb_latexmk ru
 See [this answer](https://tex.stackexchange.com/a/83386/29222) on tex.stackexchange.com for more information.
 
 ## The result
-The workflow above takes about 4 minutes to run on GitHub. It's fairly reliable but could be improved, for example by using caching between commits to avoid spinning up a new machine every time.
+The workflow above takes about 4 minutes to run on GitHub and spits out new PDFs. It's fairly reliable but could be improved, for example by using caching between commits to avoid spinning up a new machine every time.
 
 You can see the whole thing in use as part of my [open science course](https://github.com/LIKE-ITN/OpenScienceTrainingCourse).
 

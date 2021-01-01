@@ -1,5 +1,5 @@
 ---
-title: 'What adopting "open science" means for you and your organization'
+title: 'What adopting open science means for you and your organization'
 date: 2020-02-19
 excerpt: This article discusses some of the goals, problems, and opportunities associated with implementing open science in a STEM organisation.
 featured-image: /images/OpenScienceResearchInitiative-ResearchLifecycle.png
@@ -15,8 +15,8 @@ This article discusses some of the goals, problems, and opportunities associated
 
 ## Why you should implement open science
 This depends on your viewpoint.
- - Internally: Open science fosters collaborative and cooperative approaches to working. Those in turn lead to reduced costs by reducing wasted duplicate effort, better visibility of results, and more ability to reuse work elsewhere. It also can reduce reliance on key personnel and makes organisations more resilient.
- - Externally: Organisations that believe in open science and have implemented some of the concepts discussed here, are easier to interface with. Given the choice between working with two organisations that are otherwise identical, the open organisation will tend to be the preferred partner. In other words, it can give you competitive advantage.
+ - Internally: open science fosters collaborative and cooperative approaches to working. Those in turn lead to reduced costs by reducing wasted duplicate effort, better visibility of results, and more ability to reuse work elsewhere. It also can reduce reliance on key personnel and makes organisations more resilient.
+ - Externally: organisations that believe in open science and have implemented some of the concepts discussed here, are easier to interface with. Given the choice between working with two organisations that are otherwise identical, the open organisation will tend to be the preferred partner. In other words, it can give you competitive advantage.
 
 You can see open science as a pattern of behaviour to enable and support effective research, design, and deployment.
 
@@ -44,9 +44,7 @@ Implementing open science means implementing policies and technical measures tha
 
 What this means depends on context, but I like this one that talks about how to implement open science as part of a project:
 
-![Promoting openness at different stages of the research process](/images/OpenScienceResearchInitiative-ResearchLifecycle.png "Open Science applied to the project lifecycle")
-
-_From "The Open Science Handbook" (Open Science and Research Initiative, 2014). Used under the Creative Commons Attribution 4.0 International Public License._
+{% include image.html url="/images/OpenScienceResearchInitiative-ResearchLifecycle.png" caption='From "The Open Science Handbook" (Open Science and Research Initiative, 2014). Used under the Creative Commons Attribution 4.0 International Public License.' alt="Open Science applied to the project lifecycle" %}
 
 This approach is fine if you are running a project-based organisation, which is relatively common in academia. But it doesn't work so well if you are constantly producing small reports or other "data". In that case, the goal is to make the data open.
 
@@ -135,6 +133,6 @@ But, the benefits are potentially huge. Given those challenges and the potential
 
 Rather than just being a philosphy, open science can be defined as a series of concrete, tangible activities. This opens the door for organisations in academia and private industry to adopt it, monitor their adoption, and ultimately profit from it.
 
-_For more about Open Science, see my course on [GitHub](https://github.com/LIKE-ITN/OpenScienceTrainingCourse)_
+_For more about open science, see my course on [GitHub](https://github.com/LIKE-ITN/OpenScienceTrainingCourse)_
 
 [^FAIR]: Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3, 160018 (2016). [https://doi.org/10.1038/sdata.2016.18](https://doi.org/10.1038/sdata.2016.18)
