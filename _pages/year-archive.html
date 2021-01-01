@@ -9,8 +9,11 @@ redirect_from:
 ---
 
 {% include base_path %}
+<!-- check for published posts -->
+{% assign posts = site.posts | where_exp:"post","post.draft != true" %}
+
 <!-- solution based on https://stackoverflow.com/a/20777475/2514568 -->
-{% for post in site.posts %}
+{% for post in posts %}
   {% assign currentdate = post.date | date: "%Y" %}
   {% if currentdate != date %}
     {% unless forloop.first %}</div></div>{% endunless %}

@@ -1,12 +1,11 @@
 ---
 title: "R&D Network Management"
-excerpt: Research networks are essential for successful RD&D. I've been involved in several over the years.
+excerpt: Research networks are essential for successful RD&D. I've helped lead several over the years.
 featured-image: /images/2020/09/alina-grubnyak-ZiQkhI7417A-unsplash_500W.jpg
 date: 2020-05-01
 permalink: /projects/2020/05/networks/
 tags:
   - Research networks
-  - Community engagement
   - Stakeholder engagement
   - Lessons learned 
 ---

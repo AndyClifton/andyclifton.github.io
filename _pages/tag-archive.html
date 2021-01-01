@@ -7,7 +7,9 @@ author_profile: true
 
 {% include base_path %}
 
-{% assign alldocs = site.documents %}
+<!-- check for published posts -->
+{% assign alldocs = site.documents | where_exp:"document","document.draft != true" %}
+
 {% assign grouptag =  alldocs | map: 'tags' | join: ','  | split: ','  | group_by: tag %}
 {% assign grouptag_sorted = grouptag | sort: 'size' | reverse  %}
 

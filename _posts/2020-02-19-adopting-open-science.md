@@ -114,7 +114,7 @@ Well, you can still be open internally or within your teams. This might not mean
 
 ## Challenge 5. Change is not popular
 
-You can imagine that open science potentially means changing how organisations work. It asks a lot of an organisation and can be disruptive. In some cases it may be completely opposite to existing ways of working. Therefore, you should expect that implmenting the open science principles will not be easy.
+You can imagine that open science potentially means changing how organisations work. It asks a lot of an organisation and can be disruptive. In some cases it may be completely opposite to existing ways of working. Therefore, you should expect that implementing the open science principles will not be easy.
 
 But, the benefits are potentially huge. Given those challenges and the potential benefit, it's worth treating the adoption of open science as a strategic change and using appropriate tools. Some ideas for what that might mean in this context are:
 
