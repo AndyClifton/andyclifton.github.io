@@ -401,10 +401,7 @@
   @include clearfix();
   float: left;
 
-  @include breakpoint($large) {
-    @include pre(2.5 of 12);
-  }
-
+  
   a {
     color: inherit;
     text-decoration: none;
