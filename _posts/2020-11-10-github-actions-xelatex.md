@@ -2,7 +2,7 @@
 title: "Running XeLaTeX using GitHub Actions"
 date: 2020-11-10
 excerpt: GitHub actions allow you to use continuous integration to build LaTeX documents from your GitHub repositories
-featured-image: /images/2020-11-10-github-actions-xelatex.png
+featured-image: /images/2020/11/github-actions-xelatex.png
 permalink: /posts/2020/11/github-actions-xelatex/
 tags:
   - Software development
@@ -179,4 +179,5 @@ The workflow above takes about 4 minutes to run on GitHub and spits out new PDFs
 
 You can see the whole thing in use as part of my [open science course](https://github.com/LIKE-ITN/OpenScienceTrainingCourse).
 
-![It works!](/images/2020-11-10-github-actions-xelatex.png)
+
+{% include image.html url="/images/2020/11/github-actions-xelatex.png" caption='It works! Results from the actions page on GitHub.' alt="It works! Results from the actions page on GitHub." %}

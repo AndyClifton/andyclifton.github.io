@@ -7,7 +7,7 @@ featured-image: /images/2020/09/alina-grubnyak-ZiQkhI7417A-unsplash.jpg
 tags:
   - Research networks
   - Stakeholder engagement
-  - Lessons learned 
+  - Strategy
 ---
 
 Networks of people and organisations can be amazingly effective ways of addressing a community's needs. But there are many challenges that the network needs to overcome. What do you need to do to be successful?

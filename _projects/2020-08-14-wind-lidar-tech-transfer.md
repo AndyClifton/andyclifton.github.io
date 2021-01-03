@@ -1,21 +1,20 @@
 ---
 title: "Wind lidar technology transfer"
 excerpt: Wind lidar have applications to wind energy, transport, and many other sectors. I've been involved with research, development and deployment of wind lidar since 2008.
-featured-image: /images/24386_500W.jpg
+featured-image: /images/2013/02/24386_500W.jpg
 date: 2020-08-14
 permalink: /projects/2020/08/wind-lidar-tech-transfer/
 tags:
   - Research networks
   - Stakeholder engagement
-  - Lessons learned 
 ---
 
 Wind lidar allow the remote measurement of wind speed from the ground, from wind turbines and other platforms, from aircraft, and from space. They have applications for wind energy, meteorology, environment, transport, and many other sectors. 
 
 Because it has so many applications and replaces other devices that have been in use for decades, wind lidar is quite a disruptive technology. I've experienced this process from several different perspectives over the last decade. I've been a lidar vendor trying to sell lidar; I've been a consultant, helping clients adopt it; I've been a researcher, trying to advance the state of the art [^Newman_Clifton_2017]; and since 2018, I've been the Operating Agent of an IEA Wind Task working to enable international collaboration [^Clifton_Clive_2018].
 
-![Photo by Andy Clifton, NREL 24386](/images/24386.jpg "Photo by Andy Clifton, NREL 24386")
-_Getting experience with lidar at the NWTC. Photo by Andy Clifton, NREL 24386_
+{% include image.html url="/images/2013/02/24386.jpg" caption='Getting experience with lidar at the NWTC. Photo by Andy Clifton, NREL 24386' alt="Photo by Andy Clifton, NREL 24386" %}
+
 
 ## The process of technology adoption
 

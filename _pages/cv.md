@@ -16,8 +16,6 @@ I received my MEng from Durham in 2001 and then worked on gas turbine R&D with A
 
 {% include image.html url="/images/2007/09/DSCN1967.jpg" caption='Fieldwork on the Castle Glacier in British Columbia, 2007' alt="Fieldwork on the Castle Glacier in British Columbia, 2007" %}
 
-__
-
 My renewable energy career started in 2008 when I joined a wind energy consultancy in Vancouver, BC. In late 2009 I returned to Davos to continue research on winds in complex terrain. In true postdoc style the nomadic life continued, and in 2011 I went to the US National Renewable Energy Laboratory ([NREL](http://www.nrel.gov)) near Denver, where I led research into wind and solar energy resources. 
 
 {% include image.html url="/images/2012/04/IMG_0130.jpg" caption='The view from the office at the National Wind Technology Center' alt="The view from the office at the National Wind Technology Center" %}
