@@ -1,8 +1,8 @@
 ---
 title: "A month with the BMC 2020 Alpenchallenge 01 Three"
+date: 2021-01-01
 excerpt: My experiences with the BMC 2020 Alpenchallenge 01 Three hybrid bike.
 featured-image: /images/2020/08/IMG_20200813_152853088.jpg
-date: 2021-01-01
 permalink: /posts/2021/01/bmc-2020-alpenchallenge-01-three/
 tags:
   - biking

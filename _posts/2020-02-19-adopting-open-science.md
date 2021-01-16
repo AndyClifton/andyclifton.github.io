@@ -130,7 +130,7 @@ But, the benefits are potentially huge. Given those challenges and the potential
 
 ## Result: open science is tangible and progress is measurable
 
-Rather than just being a philosphy, open science can be defined as a series of concrete, tangible activities. This opens the door for organisations in academia and private industry to adopt it, monitor their adoption, and ultimately profit from it.
+Rather than just being a philosophy, open science can be defined as a series of concrete, tangible activities. This opens the door for organisations in academia and private industry to adopt it, monitor their adoption, and ultimately profit from it.
 
 _For more about open science, see my course on [GitHub](https://github.com/LIKE-ITN/OpenScienceTrainingCourse)_
 
