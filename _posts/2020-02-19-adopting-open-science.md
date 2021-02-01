@@ -5,9 +5,9 @@ excerpt: This article discusses some of the goals, problems, and opportunities a
 featured-image: /images/OpenScienceResearchInitiative-ResearchLifecycle.png
 permalink: /posts/2020/02/adopting-open-science/
 tags:
-  - Open science
-  - Productivity
-  - Strategy
+  - open science
+  - productivity
+  - strategy
 ---
 
 This article discusses some of the goals, problems, and opportunities associated with implementing open science in an organisation. That could be from 5 to 50,000 people across tech, engineering, education, or research. And by science, I mean anything from hardcore engineering to the natural sciences, to software development.
@@ -43,7 +43,7 @@ Implementing open science means implementing policies and technical measures tha
 
 What this means depends on context, but I like this one that talks about how to implement open science as part of a project:
 
-{% include image.html url="/images/OpenScienceResearchInitiative-ResearchLifecycle.png" caption='From "The Open Science Handbook" (Open Science and Research Initiative, 2014). Used under the Creative Commons Attribution 4.0 International Public License.' alt="Open Science applied to the project lifecycle" %}
+{% include image.html image-url="/images/OpenScienceResearchInitiative-ResearchLifecycle.png" shadow=true caption='From "The Open Science Handbook" (Open Science and Research Initiative, 2014). Used under the Creative Commons Attribution 4.0 International Public License.' alt="Open Science applied to the project lifecycle" %}
 
 This approach is fine if you are running a project-based organisation, which is relatively common in academia. But it doesn't work so well if you are constantly producing small reports or other "data". In that case, the goal is to make the data open.
 

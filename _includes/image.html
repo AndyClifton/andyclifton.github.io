@@ -1,4 +1,17 @@
-<figure class="image"><img src="{{ include.url }}"
-        alt="{{ include.alt }}">
+<figure>
+    {% if include.link-url %}
+    <a href="{{ include.link-url }}">
+        {% endif %}
+        {% if include.shadow %}
+        <img src="{{ include.image-url }}" alt="{{ include.alt }}"
+            class="image-shadow">
+        {% else %}
+        <img src="{{ include.image-url }}" alt="{{ include.alt }}">
+        {% endif %}
+        {% if include.link-url %}
+    </a>
+    {% endif %}
+    {% if include.caption %}
     <figcaption>{{ include.caption }}</figcaption>
+    {% endif %}
 </figure>

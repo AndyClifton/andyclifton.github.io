@@ -180,4 +180,4 @@ The workflow above takes about 4 minutes to run on GitHub and spits out new PDFs
 You can see the whole thing in use as part of my [open science course](https://github.com/LIKE-ITN/OpenScienceTrainingCourse).
 
 
-{% include image.html url="/images/2020/11/github-actions-xelatex.png" caption='It works! Results from the actions page on GitHub.' alt="It works! Results from the actions page on GitHub." %}
+{% include image.html image-url="/images/2020/11/github-actions-xelatex.png" shadow=true caption='It works! Results from the actions page on GitHub.' alt="It works! Results from the actions page on GitHub." %}

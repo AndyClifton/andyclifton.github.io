@@ -42,7 +42,7 @@ The **2020 Alpenchallenge 01-three** had more of a gravel setup than the other b
 
 _N.B. it looks like BMC updated their Alpenchallenge models for 2021 and changed the numbering. The 2021 equivalent of the 2020 01-three seems to be the 2020 01-**two**, now._
 
-{% include image.html url="/images/2020/08/IMG_20200813_152853088.jpg" caption='Somewhere in Allgau' alt="a bike in the mountains of southern Germany" %}
+{% include image.html image-url="/images/2020/08/IMG_20200813_152853088.jpg" shadow=true caption='Somewhere in Allgau' alt="a bike in the mountains of southern Germany" %}
 
 BMC claim you can fit mudguards and a rack to all of them, so you could potentially add bags, but because of the short stays I would be concerned about heel strike against them. Best to test in advance! If long-distance touring with panniers is your target use, there are definitely other bikes that are better suited at this price point.
 
@@ -92,7 +92,7 @@ As hoped, it's proven to be a very versatile bike and has handled everything I'v
 
 The only (minor) problem I've had is the lack of clearance for a mudguard. BMC will sell you something expensive or I could fit something like an [Ass Saver](https://ass-savers.com/), but I've just not got round to it. So it's my own fault!
 
-{% include image.html url="/images/2020/11/IMG_20201129_124829793_HDR.jpg" caption="A bike route not far from Stuttgart. You don't have to get far from town to get out in the country!" alt="a bike in the mountains of southern Germany" %}
+{% include image.html image-url="/images/2020/11/IMG_20201129_124829793_HDR.jpg" shadow=true caption="A bike route not far from Stuttgart. You don't have to get far from town to get out in the country!" alt="a bike in the mountains of southern Germany" %}
 
 Inevitably, though, my thoughts are turning to _n+1_ and now I know the area much better I am considering a gravel bike that I can also use as a summer tourer. Shame the delivery times are June / July 2021! I'll just have to keep riding :)
 

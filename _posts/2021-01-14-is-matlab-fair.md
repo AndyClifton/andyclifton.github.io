@@ -1,6 +1,6 @@
 ---
 title: 'Is MATLAB FAIR?'
-date: 2021-01-21
+date: 2021-01-14
 draft: false
 excerpt: Is code made with MATLAB - a proprietary programming language - appropriate for open science?
 featured-image: /images/2021/01/hitesh-choudhary-D9Zow2REm8U-unsplash_800W.jpg
@@ -43,7 +43,7 @@ There are a couple of problems that people have pointed out with MATLAB.
 
 This means that code written in MATLAB can only be shared with a limited community and can't run reliably on another machine. These seem to be the main reasons why MATLAB is perceived as _not good for open science_. But is this true?
 
-{% include image.html url="/images/2021/01/hitesh-choudhary-D9Zow2REm8U-unsplash_800W.jpg" caption="Just because a programming language is open source, that doesn't mean that it automatically enables open science" alt="a person holding a python sticky note" %}
+{% include image.html image-url="/images/2021/01/hitesh-choudhary-D9Zow2REm8U-unsplash_800W.jpg" shadow=true caption="Just because a programming language is open source, that doesn't mean that it automatically enables open science" alt="a person holding a python sticky note" %}
 
 ## This is not a MATLAB problem
 Let's be reasonable. While we've used MATLAB as the example, the same points we raised above are applicable to many other programming languages, not just MATLAB.
