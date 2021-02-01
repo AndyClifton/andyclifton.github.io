@@ -37,7 +37,7 @@ if(readCookie('cookie-notice-dismissed')=='true') {
 }
 ````
 
-Basically, once you have the user's consent, you can run whatever javascript you need. You can edit the ````{ % include blah.js % }```` to call whatever files you want.
+This means that once you have the user's consent, you can run whatever javascript you need. You can edit the ````{ % include blah.js % }```` to call whatever files you want.
 
 ## Embedding Google Analytics Codes
 First, we'll need a google analytics tracking code. You can get this from [analytics.google.com](https://analytics.google.com). I'll not go into details, but the short version is that you want a code for a website.
