@@ -12,7 +12,7 @@ tags:
 As a result of the [EU's GDPR legislation and the ePrivacy Directive](https://consent.guide/google-analytics-cookie-consent/), websites that are accessible in the EU are required to allow the users to control what information is gathered about them, and how this is used. The most obvious result of this are the cookie consent banners that you have to approve when you visit most websites for the first time. Unfortunately those banners are not a standard Jekyll feature, so you'll have to make your own.
 
 ## Implementing a cookie consent banner in Jekyll
-This is pretty easy. There is some very good code by Joost van der Schee available from [the Jekyll Codex](https://jekyllcodex.org/without-plugin/cookie-consent/), which can be used freely ([according to the site license](https://jekyllcodex.org/about)).  
+This is pretty easy once you know how! There is some very good code by Joost van der Schee available from [the Jekyll Codex](https://jekyllcodex.org/without-plugin/cookie-consent/), which can be used freely ([according to the site license](https://jekyllcodex.org/about)).  
 
 It's a file - _cookie-consent.html_ - that you should save in your __includes/_ directory, and include towards the bottom of you default HTML layout, like this:
 
@@ -29,12 +29,12 @@ It's a file - _cookie-consent.html_ - that you should save in your __includes/_ 
 The cookie consent banner code in _cookie-consent.html_ includes this crucial code:
 
 ````    
-    if(readCookie('cookie-notice-dismissed')=='true') {
-        { % include ga.js % }
-        { % include chatbutton.js % }
-    } else {
-        document.getElementById('cookie-notice').style.display = 'block';
-    }
+if(readCookie('cookie-notice-dismissed')=='true') {
+    { % include ga.js % }
+    { % include chatbutton.js % }
+} else {
+    document.getElementById('cookie-notice').style.display = 'block';
+}
 ````
 
 Basically, once you have the user's consent, you can run whatever javascript you need. You can edit the ````{ % include blah.js % }```` to call whatever files you want.
@@ -45,13 +45,13 @@ First, we'll need a google analytics tracking code. You can get this from [analy
 Then we'll add this to our site's __config.yml_ file:
 
 ````
-    google_analytics_id: G-ABCDEFGH
+google_analytics_id: G-ABCDEFGH
 ````
 
 ## The javascript
 Now we need to create a file called _/includes/ga.js_, which is where we'll store the actual code we want to run.
 
-I picked up this code from [Coralie Collignon's blog](https://www.coraliecollignon.com/jekyll/2020/10/22/google-analytics.html). Put it all in your new _/includes/ga.js_ file.
+I picked up this code from [Coralie Collignon's blog](https://www.coraliecollignon.com/jekyll/2020/10/22/google-analytics.html), who in turn acknowledges to having picked it up from [Stack Overflow](https://stackoverflow.com/questions/51833090/put-google-analytics-code-in-an-js-file/51833302). Anyway, put it all in your new _/includes/ga.js_ file.
 
 ````
 /*This function will load script and call the callback once the script has loaded*/
@@ -74,8 +74,6 @@ loadScriptAsync('https://www.googletagmanager.com/gtag/js?id={#YOUR-TRACKING-ID}
 })
 ````
 
-... who in turn acknowledges to having picked it up from [Stack Overflow](https://stackoverflow.com/questions/51833090/put-google-analytics-code-in-an-js-file/51833302).
-
 This should all work. You can check it works using [cookiebot](https://www.cookiebot.com/en/).
 
 ## How to avoid recording your development clicks
@@ -94,10 +92,10 @@ Then you need to modify _cookie-consent.html_ to detect that flag:
 
 ````
 if(readCookie('cookie-notice-dismissed')=='true') {
-         { % if jekyll.environment == "production" and site.google_analytics_id % }
+    { % if jekyll.environment == "production" and site.google_analytics_id % }
         { % include google-analytics.js % }
-        { % endif % }
-    }
+    { % endif % }
+}
 ````
 
 _et voila_. Now you will only get "production" traffic.
