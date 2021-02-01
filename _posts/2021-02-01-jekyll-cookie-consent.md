@@ -18,23 +18,26 @@ It's a file - _cookie-consent.html_ - that you should save in your __includes/_ 
 
 ````
 ...
-{% include cookie-consent.html %}
+{ % include cookie-consent.html % }
 </body>
 </html>
 ```` 
+
+(note that usually you would write `{ %` and `% }` __without spaces between the % and } symbols__ but this causes trouble here!)
+
 
 The cookie consent banner code in _cookie-consent.html_ includes this crucial code:
 
 ````    
     if(readCookie('cookie-notice-dismissed')=='true') {
-        {% include ga.js %}
-        {% include chatbutton.js %}
+        { % include ga.js % }
+        { % include chatbutton.js % }
     } else {
         document.getElementById('cookie-notice').style.display = 'block';
     }
 ````
 
-Basically, once you have the user's consent, you can run whatever javascript you need. You can edit the ````{% include blah.js %}```` to call whatever files you want.
+Basically, once you have the user's consent, you can run whatever javascript you need. You can edit the ````{ % include blah.js % }```` to call whatever files you want.
 
 ## Embedding Google Analytics Codes
 First, we'll need a google analytics tracking code. You can get this from [analytics.google.com](https://analytics.google.com). I'll not go into details, but the short version is that you want a code for a website.
@@ -91,9 +94,9 @@ Then you need to modify _cookie-consent.html_ to detect that flag:
 
 ````
 if(readCookie('cookie-notice-dismissed')=='true') {
-         {% if jekyll.environment == "production" and site.google_analytics_id %}
-        {% include google-analytics.js %}
-        {% endif %}
+         { % if jekyll.environment == "production" and site.google_analytics_id % }
+        { % include google-analytics.js % }
+        { % endif % }
     }
 ````
 
