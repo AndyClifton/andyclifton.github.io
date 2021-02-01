@@ -1,7 +1,8 @@
 ---
 title: 'How to implement a cookie consent banner for a jekyll website'
 date: 2021-02-01
-excerpt: 
+draft: false
+excerpt: Cookie consent banners are legally required, but not often included in Jekyll website templates. Here's how you do it.
 featured-image: /images/2021/02/sara-sperry--EMvlQ5n8n0-unsplash.jpg
 permalink: /posts/2021/02/jekyll-cookie-consent/
 tags:
