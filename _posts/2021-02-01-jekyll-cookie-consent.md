@@ -87,16 +87,10 @@ This should all work. You can check it works using [cookiebot](https://www.cooki
 ## How to avoid recording your development clicks
 You can set flags in your code to detect which environment you are in - development, production, or whatever. There's more about this on the [Jekyll home page](https://jekyllrb.com/docs/configuration/environments/).
 
-Because we build and serve through netlify, we set the environment variable in our __netlify.toml_ file:
+### Using Github pages
+GitHub Pages sets ```JEKYLL_ENV``` to ```production``` automatically when you push Jekyll source code to GitHub build it using pages. This means that you have access to a variable, ```jekyll.environment == "production"``.`
 
-````
-[build.environment]
-  JEKYLL_ENV = "production"
-````
-
-GitHub Pages sets ```JEKYLL_ENV``` to ```production``` when you push Jekyll source code to GitHub build it using pages. There are similar approaches you can use in Heroku and other build services as well. 
-
-Then you need to modify _cookie-consent.html_ to detect that flag:
+Then you can modify _cookie-consent.html_ to detect that flag, and only call google analytics when you are in your production environment:
 
 ````
 if(readCookie('cookie-notice-dismissed')=='true') {
@@ -108,4 +102,16 @@ if(readCookie('cookie-notice-dismissed')=='true') {
 
 _et voila_! Now you will only get "production" traffic showing up in your analytics.
 
-I hope this helps!
+### Using other build services
+There are similar approaches you can use in Heroku and other build services as well. For example, I build another site through netlify. There I set the environment variable in my __netlify.toml_ file:
+
+````
+[build.environment]
+  JEKYLL_ENV = "production"
+````
+
+## More complex consent
+In this example I'm asking for consent for one set of data transfer to Google Analytics. This is the only consent I need for my website. in other cases it might be necessary to implement a more extended set of buttons to request permission for advertising, using facebook "like" services, or for comments. You'll probably need a different approach for that. 
+
+## All done
+Here I've shared how I implement a simple consent banner for a jekyll website that requests permission to collect and use data through google analytics. I hope this helps!
