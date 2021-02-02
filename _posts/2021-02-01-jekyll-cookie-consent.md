@@ -11,6 +11,11 @@ tags:
 
 As a result of the [EU's GDPR legislation and the ePrivacy Directive](https://consent.guide/google-analytics-cookie-consent/), websites that are accessible in the EU are required to allow the users to control what information is gathered about them, and how this is used. The most obvious result of this are the cookie consent banners that you have to approve when you visit most websites for the first time. Unfortunately those banners are not a standard Jekyll feature, so you'll have to make your own.
 
+There are a couple of steps we need to go through.
+1. Creating the cookie banner itself
+2. Linking the "accept" button on the banner to google analytics
+3. Avoid counting page views during development
+
 ## Implementing a cookie consent banner in Jekyll
 This is pretty easy once you know how! There is some very good code by Joost van der Schee available from [the Jekyll Codex](https://jekyllcodex.org/without-plugin/cookie-consent/), which can be used freely ([according to the site license](https://jekyllcodex.org/about)).  
 
@@ -39,16 +44,19 @@ if(readCookie('cookie-notice-dismissed')=='true') {
 
 This means that once you have the user's consent, you can run whatever javascript you need. You can edit the ````{ % include blah.js % }```` to call whatever files you want.
 
-## Embedding Google Analytics Codes
-First, we'll need a google analytics tracking code. You can get this from [analytics.google.com](https://analytics.google.com). I'll not go into details, but the short version is that you want a code for a website.
+## Adding Google Analytics
+Our next step is to call the javascript that passes the information about page views back to Google. This is implemented in the _ga.js_ script that is included in _cookie-consent.html_.
 
-Then we'll add this to our site's __config.yml_ file:
+### Get a tracking code
+We'll need a google analytics tracking code. You can get this from [analytics.google.com](https://analytics.google.com). I'll not go into details, but the short version is that you want a code for a website.
+
+Then we'll add this to our site's __config.yml_ file so that we can call it by reference, elsewhere:
 
 ````
 google_analytics_id: G-ABCDEFGH
 ````
 
-## The javascript
+### The javascript
 Now we need to create a file called _/includes/ga.js_, which is where we'll store the actual code we want to run.
 
 I picked up this code from [Coralie Collignon's blog](https://www.coraliecollignon.com/jekyll/2020/10/22/google-analytics.html), who in turn acknowledges to having picked it up from [Stack Overflow](https://stackoverflow.com/questions/51833090/put-google-analytics-code-in-an-js-file/51833302). Anyway, put it all in your new _/includes/ga.js_ file.
@@ -86,7 +94,7 @@ Because we build and serve through netlify, we set the environment variable in o
   JEKYLL_ENV = "production"
 ````
 
-There are similar approaches you can use in Heroku and Github as well.
+GitHub Pages sets ```JEKYLL_ENV``` to ```production``` when you push Jekyll source code to GitHub build it using pages. There are similar approaches you can use in Heroku and other build services as well. 
 
 Then you need to modify _cookie-consent.html_ to detect that flag:
 
@@ -98,6 +106,6 @@ if(readCookie('cookie-notice-dismissed')=='true') {
 }
 ````
 
-_et voila_. Now you will only get "production" traffic.
+_et voila_! Now you will only get "production" traffic showing up in your analytics.
 
 I hope this helps!
