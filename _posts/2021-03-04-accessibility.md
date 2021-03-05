@@ -17,7 +17,7 @@ When people interact visually with a document they unconsciously give that docum
 
 You can now imagine that you could take the same document and abstract it into a structured tree with tags and descriptions. That document becomes machine-readable, sort of like xml.
 
-This is really helpful, because machine-readable documents are inherently more _accessible_ as they can be adapted to different people's requirements. They can be read out loud by a screen reader, or they could be converted in to Braille, the font size could be increased, a [dyslexic-friendly font](https://www.dyslexiefont.com/en/typeface/) could be used, or any number of other changes.
+This is really helpful, because machine-readable documents are inherently more _accessible_ as they can be adapted to different people's requirements on-the-fly. They can be read out loud by a screen reader, or they could be converted in to Braille, the font size could be increased, a [dyslexic-friendly font](https://www.dyslexiefont.com/en/typeface/) could be used, or any number of other changes.
 
 Many countries now require the ability to access government documents using these alternative approaches (such as screen readers). This is sometimes referred to as "508 compliance" in the USA, and there are local equivalents elsewhere. Because PDF documents are the _de facto_ standard for shareable documents, this means that PDF documents have to be structured and tagged, and contain image descriptions. If you want to test a PDF to see what this means, try the [Free PDF Accessibility Checker (PAC 3)](https://www.access-for-all.ch/en/pdf-accessibility-checker.html)
 
@@ -56,7 +56,7 @@ Fortunately, in late 2020 the LaTeX project announced a [major initiative to mak
 
 #### What next for the `accessibility` package?
 
-However, it does mean that there is really no point in my continuing to work on `accessibility`. So, in early March 2021 I made the difficult decision to stop trying to fix up the package, and I have asked the CTAN maintainers to mark the package as unmaintained. If anyone would like to take it on, please [get in touch](https://github.com/AndyClifton/accessibility/issues).
+This development means that there will be a fundamental solution to the challenge of structured and tagged PDFs from LaTeX that brings the right people together. I can't match this, and so in early March 2021 I made the difficult decision to stop trying to fix up the `accessibility` package. I have asked the CTAN maintainers to mark the package as unmaintained. If anyone would like to take it on, please [get in touch](https://github.com/AndyClifton/accessibility/issues).
 
 ----
 
@@ -78,4 +78,4 @@ If this workflow is ok for you but you'd rather start in LaTeX, you can just exp
 ## Other approaches
 What do you use? If you have any suggestions, please get in touch!
 
-Alternatively, there are a bunch of questions on the [`accessibilty` tag](https://tex.stackexchange.com/questions/tagged/accessibility) on tex.stackexchange.com that need some answers :)
+Alternatively, there are a bunch of questions on the [`accessibility` tag](https://tex.stackexchange.com/questions/tagged/accessibility) on tex.stackexchange.com that need some answers :)
